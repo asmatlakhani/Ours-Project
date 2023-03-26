@@ -60,7 +60,7 @@ section{
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url(./img/mount\ img.jpeg);
+    background: url(https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_960_720.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
