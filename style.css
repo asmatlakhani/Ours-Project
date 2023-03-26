@@ -60,8 +60,7 @@ section{
     position: relative;
     width: 100vw;
     height: 100vh;
-  
-    background-image: url(./img/mount\ img.jpeg);
+    background: url(./img/mount\ img.jpeg);
     background-size: cover;
     background-position: center;
     display: grid;
