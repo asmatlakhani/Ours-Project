@@ -60,6 +60,45 @@ section{
     position: relative;
     width: 100vw;
     height: 100vh;
+  }
+    background-image: url(./img/mount\ img.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+
+}
+.Home-text h1{
+    font-size: xx-large;
+    line-height: 1.2;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+
+}
+.Home-text p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+line-height: 38px;
+margin-bottom: 50px;
+}
+.Home-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: brown;
+    color: #fff;
+    border-radius: 22px;
+    transition: ease .40s;
+}
+.Home-btn:hover{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+}
+
 header{
     background-color: brown;
     border-radius: 18px;
@@ -202,41 +241,3 @@ margin-top: 5rem;
       grid-template-rows: 1fr 1fr; 
       gap: 20px 20px; 
     }
-  }
-    background-image: url(./img/mount\ img.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-
-}
-.Home-text h1{
-    font-size: xx-large;
-    line-height: 1.2;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 4px;
-
-}
-.Home-text p{
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-line-height: 38px;
-margin-bottom: 50px;
-}
-.Home-btn{
-    display: inline-block;
-    font-size: 16px;
-    padding: 15px 30px;
-    background: brown;
-    color: #fff;
-    border-radius: 22px;
-    transition: ease .40s;
-}
-.Home-btn:hover{
-    background-color: #fff;
-    color: black;
-    transform: scale(1.1);
-}
